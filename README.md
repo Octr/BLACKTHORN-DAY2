@@ -21,13 +21,16 @@
  - Turned many scene objects into prefabs
  - Added "Fire" animation to Target/Reticle
  - Implemented "Rocket" SFX
+ - Import Kenney Targets
 
 
 # Credits
 https://www.dafont.com/super-foods.font?l[]=10&l[]=1
+
 https://www.kenney.nl/assets/food-kit
 https://www.kenney.nl/assets/furniture-kit
 https://www.kenney.nl/assets/mini-dungeon
+https://www.kenney.nl/assets/blaster-kit
 
 https://pixabay.com/users/onoychenkomusic-24430395/
 https://pixabay.com/users/itswatr-12344345/
