@@ -15,6 +15,8 @@
  - Kenney Furniture Imported
  - Kenney Dungeon Characters Imported
  - Continous Collision For Rockets (Prevents Clipping Through Colliders)
+ - Animated Characters (Idle, Walk Death)
+ - Added Music Player (6 Tracks)
 
 
 # Credits
@@ -22,3 +24,10 @@ https://www.dafont.com/super-foods.font?l[]=10&l[]=1
 https://www.kenney.nl/assets/food-kit
 https://www.kenney.nl/assets/furniture-kit
 https://www.kenney.nl/assets/mini-dungeon
+
+https://pixabay.com/users/onoychenkomusic-24430395/
+https://pixabay.com/users/itswatr-12344345/
+https://pixabay.com/users/john_sib-15655402/
+https://pixabay.com/users/nesterouk-34392616/
+https://pixabay.com/users/blackbox-901816/
+https://pixabay.com/users/spmusic-34490764/
