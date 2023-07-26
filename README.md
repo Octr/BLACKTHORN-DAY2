@@ -38,3 +38,5 @@ https://pixabay.com/users/spmusic-34490764/
 
 https://pixabay.com/users/pixabay-1/
 https://freesound.org/people/derplayer/sounds/587184/
+https://freesound.org/people/The-Sacha-Rush/sounds/336922/
+https://freesound.org/people/SilverIllusionist/sounds/472688/
