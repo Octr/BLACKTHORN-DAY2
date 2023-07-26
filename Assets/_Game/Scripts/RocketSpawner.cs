@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RocketSpawner : MonoBehaviour
 {
-    [SerializeField] private GameObject _rocketPrefab;
+    [SerializeField] private GameObject[] _rocketPrefabs;
 
     //Object that all rockets become children of. To organise heirarchy
     private Transform _rocketSpawnParent;
@@ -16,7 +16,8 @@ public class RocketSpawner : MonoBehaviour
 
     public void Spawn()
     {
-        GameObject rocket = Instantiate(_rocketPrefab, this.transform.position, Quaternion.identity, _rocketSpawnParent);
+        int seed = Random.Range(0, _rocketPrefabs.Length);
+        GameObject rocket = Instantiate(_rocketPrefabs[seed], this.transform.position, Quaternion.identity, _rocketSpawnParent);
         rocket.transform.LookAt(this.transform.position + Vector3.down); //Have the rockets all point towards the ground when spawning in
     }
 }
