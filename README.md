@@ -27,6 +27,7 @@
  - Increasing Fire Rate / Target Kills
  - Decreasing Target Life Time / Target Kills
  - Swapped Input To Left Mouse (Hold) For Firing Rockets
+ - Import Kenney Cars
 
 
 # Credits
@@ -36,6 +37,7 @@ https://www.kenney.nl/assets/food-kit
 https://www.kenney.nl/assets/furniture-kit
 https://www.kenney.nl/assets/mini-dungeon
 https://www.kenney.nl/assets/blaster-kit
+https://www.kenney.nl/assets/car-kit
 
 https://pixabay.com/users/onoychenkomusic-24430395/
 https://pixabay.com/users/itswatr-12344345/
