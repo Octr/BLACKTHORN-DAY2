@@ -14,9 +14,11 @@
  - Created Level Design / Environment Rooms
  - Kenney Furniture Imported
  - Kenney Dungeon Characters Imported
+ - Continous Collision For Rockets (Prevents Clipping Through Colliders)
 
 
 # Credits
 https://www.dafont.com/super-foods.font?l[]=10&l[]=1
 https://www.kenney.nl/assets/food-kit
 https://www.kenney.nl/assets/furniture-kit
+https://www.kenney.nl/assets/mini-dungeon
