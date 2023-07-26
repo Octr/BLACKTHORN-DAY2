@@ -22,6 +22,7 @@
  - Added "Fire" animation to Target/Reticle
  - Implemented "Rocket" SFX
  - Import Kenney Targets
+ - Added Target Spawning
 
 
 # Credits
