@@ -17,6 +17,7 @@
  - Continous Collision For Rockets (Prevents Clipping Through Colliders)
  - Animated Characters (Idle, Walk Death)
  - Added Music Player (6 Tracks)
+ - Completed "SimpleAnimation.cs" (Adds Rotation To Objects)
 
 
 # Credits
