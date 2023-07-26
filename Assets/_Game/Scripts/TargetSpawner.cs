@@ -9,6 +9,8 @@ public class TargetSpawner : MonoBehaviour
     [SerializeField] private bool isSpawned;
     [SerializeField] private float lifeTime = 5;
 
+    private int cachedSpawn;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,15 +22,18 @@ public class TargetSpawner : MonoBehaviour
     {
         if(!isSpawned)
         {
-            StartCoroutine(Spawn());
+            int spawnSeed = Random.Range(0, spawnPositions.Length);
+            int targetSeed = Random.Range(0, targetPrefabs.Length);
+
+            if (spawnSeed == cachedSpawn) return;
+            StartCoroutine(Spawn(spawnSeed, targetSeed));
         }
     }
 
-    private IEnumerator Spawn()
+    private IEnumerator Spawn(int spawnSeed, int targetSeed)
     {
-        int spawnSeed = Random.Range(0, spawnPositions.Length);
-        int targetSeed = Random.Range(0, targetPrefabs.Length);
         GameObject spawnedTarget = Instantiate(targetPrefabs[targetSeed], spawnPositions[spawnSeed]);
+        cachedSpawn = spawnSeed;
         isSpawned = true;
         yield return new WaitForSeconds(lifeTime);
         Destroy(spawnedTarget);
