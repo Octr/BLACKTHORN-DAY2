@@ -11,8 +11,9 @@
  - Update RocketSpawner with new Randomized Array
  - Kenney Food Imported
  - Created Food Rockets
- - Updated Level Design / Environment
+ - Created Level Design / Environment Rooms
  - Kenney Furniture Imported
+ - Kenney Dungeon Characters Imported
 
 
 # Credits
