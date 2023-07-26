@@ -22,6 +22,7 @@ public class TargetSpawner : Singleton<TargetSpawner>
     void Start()
     {
         targetKillCount = 0;
+        CameraPan.Instance.SwapCamera(RoomType.LIVING_ROOM);
     }
 
     // Update is called once per frame
