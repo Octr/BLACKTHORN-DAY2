@@ -7,6 +7,7 @@
 # Changes
  - Upgraded Unity Version (2021.3.20f1) to (2022.3.4f1)
  - Reorganized Asset Folder
+ - Added Singleton Abstract Class
 
 
 
