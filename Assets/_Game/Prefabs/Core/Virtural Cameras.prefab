@@ -129,7 +129,7 @@ Transform:
   - {fileID: 5641905355974735723}
   - {fileID: 3938805702962433407}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4000675880392063849
 MonoBehaviour:
@@ -143,6 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ace0738cc76ae14cb1e51a3f529b01b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _index: 0
 --- !u!1 &3403270515214474198
 GameObject:
   m_ObjectHideFlags: 0
@@ -193,7 +194,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 10
+  m_Priority: 100
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}

@@ -310,12 +310,12 @@ PrefabInstance:
     - target: {fileID: 4596570376744056387, guid: c64014fb3748ddc459c5c9fe645bc030,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4596570376744056387, guid: c64014fb3748ddc459c5c9fe645bc030,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4596570376744056387, guid: c64014fb3748ddc459c5c9fe645bc030,
         type: 3}
@@ -331,21 +331,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7911145422649683982, guid: c64014fb3748ddc459c5c9fe645bc030,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7911145422649683982, guid: c64014fb3748ddc459c5c9fe645bc030,
-        type: 3}
-      propertyPath: m_ShowCameraFrustum
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8122549295770447392, guid: c64014fb3748ddc459c5c9fe645bc030,
-        type: 3}
-      propertyPath: field of view
-      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 8553728393419278365, guid: c64014fb3748ddc459c5c9fe645bc030,
         type: 3}
@@ -1095,11 +1080,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1056692769749477676, guid: 7248c1c2b7753fb49ad1cac06d09f69f,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -70.13
-      objectReference: {fileID: 0}
     - target: {fileID: 4875571077318558476, guid: 7248c1c2b7753fb49ad1cac06d09f69f,
         type: 3}
       propertyPath: m_Name
