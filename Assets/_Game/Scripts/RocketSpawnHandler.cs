@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
-public class RocketSpawnHandler : MonoBehaviour
+public class RocketSpawnHandler : Singleton<RocketSpawnHandler>
 {
-    [SerializeField] private float _coolDownTime = 3f;
+    public float CoolDownTime = 1f;
 
     private InputReader _input;
     private RocketSpawner _rocketSpawner;
@@ -14,8 +14,9 @@ public class RocketSpawnHandler : MonoBehaviour
 
     private bool _canFire = true;
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         _input = GetComponent<InputReader>();
         _animator = GetComponent<Animator>();
         _rocketSpawner = GetComponentInChildren<RocketSpawner>();
@@ -24,7 +25,8 @@ public class RocketSpawnHandler : MonoBehaviour
 
     private void Update()
     {
-        if(_input.FireInput && _canFire == true) //Prevent rockets from spawning during cooldown with _canFire
+        // I hardcoded the mouse input here because of a bug
+        if(Input.GetMouseButton(0) && _canFire == true) //Prevent rockets from spawning during cooldown with _canFire
         {
             _rocketSpawner.Spawn();
             _animator.SetTrigger("Fire");
@@ -35,7 +37,7 @@ public class RocketSpawnHandler : MonoBehaviour
     private IEnumerator Cooldown()
     {
         _canFire = false;
-        yield return new WaitForSeconds(_coolDownTime);
+        yield return new WaitForSeconds(CoolDownTime);
         _canFire = true;
     }
 }

@@ -5,13 +5,15 @@ using UnityEngine;
 /// <summary>
 /// Controls the panning of the Virtural Cameras. Needs a CameraPanHandler in the Scene to work
 /// </summary>
-public class CameraPan : MonoBehaviour
+public class CameraPan : Singleton<CameraPan>
 {    
     private InputReader _input;
     private CameraPanHandler _cameraPanHandler;
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
+
         _input = GetComponent<InputReader>();
 
         _cameraPanHandler = FindObjectOfType<CameraPanHandler>();
@@ -26,12 +28,25 @@ public class CameraPan : MonoBehaviour
     {
         if(_input.PanLeftInput)
         {
-            _cameraPanHandler.DecreaseIndex();
+            //_cameraPanHandler.DecreaseIndex();
         }
 
         if(_input.PanRightInput)
         {
-            _cameraPanHandler.IncreaseIndex();
+            //_cameraPanHandler.IncreaseIndex();
+        }
+    }
+
+    public void SwapCamera(RoomType room)
+    {
+        switch(room)
+        {
+            case RoomType.LIVING_ROOM:
+                _cameraPanHandler.SetActiveCamera(0);
+                break;
+            case RoomType.KITCHEN:
+                _cameraPanHandler.SetActiveCamera(1);
+                break;
         }
     }
 }

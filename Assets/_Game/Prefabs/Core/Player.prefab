@@ -54,9 +54,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 65
   _hasMouseControl: 1
-  _fireKeyCode: 32
-  _panLeftKeyCode: 323
-  _panRightKeyCode: 324
+  _fireKeyCode: 316
+  _panLeftKeyCode: 0
+  _panRightKeyCode: 0
 --- !u!114 &68402813462745082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83,7 +83,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 306fde351a54c7b4d89215d7561618b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _coolDownTime: 1
+  CoolDownTime: 1
 --- !u!114 &3767664596015131031
 MonoBehaviour:
   m_ObjectHideFlags: 0

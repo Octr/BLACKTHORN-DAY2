@@ -59,7 +59,8 @@ public class InputReader : MonoBehaviour
 
     private void ProcessFireInput()
     {
-        _fireInput = Input.GetKeyDown(_fireKeyCode);
+        //idk why but this doesn't work if I set the keycode to Mouse0 ?
+        //_fireInput = Input.GetKeyDown(_fireKeyCode);
     }
 
     private void ProcessMovementInput()

@@ -23,6 +23,10 @@
  - Implemented "Rocket" SFX
  - Import Kenney Targets
  - Added Target Spawning
+ - Automatic Room Swapping
+ - Increasing Fire Rate / Target Kills
+ - Decreasing Target Life Time / Target Kills
+ - Swapped Input To Left Mouse (Hold) For Firing Rockets
 
 
 # Credits

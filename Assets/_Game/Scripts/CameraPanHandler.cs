@@ -6,7 +6,7 @@ using Cinemachine;
 public class CameraPanHandler : MonoBehaviour
 {
     private CinemachineVirtualCamera[] _virtualCameras;
-    private int _index;
+    public int _index;
 
     private void Awake()
     {
