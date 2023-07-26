@@ -10,12 +10,14 @@ public class RocketSpawnHandler : MonoBehaviour
     private InputReader _input;
     private RocketSpawner _rocketSpawner;
     private DecalProjector _reticleProjector;
+    private Animator _animator;
 
     private bool _canFire = true;
 
     private void Awake()
     {
         _input = GetComponent<InputReader>();
+        _animator = GetComponent<Animator>();
         _rocketSpawner = GetComponentInChildren<RocketSpawner>();
         _reticleProjector = GetComponentInChildren<DecalProjector>();
     }
@@ -25,6 +27,7 @@ public class RocketSpawnHandler : MonoBehaviour
         if(_input.FireInput && _canFire == true) //Prevent rockets from spawning during cooldown with _canFire
         {
             _rocketSpawner.Spawn();
+            _animator.SetTrigger("Fire");
             StartCoroutine(Cooldown());
         }
     }

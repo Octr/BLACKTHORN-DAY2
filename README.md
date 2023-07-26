@@ -19,6 +19,7 @@
  - Added Music Player (6 Tracks)
  - Completed "SimpleAnimation.cs" (Adds Rotation To Objects)
  - Turned many scene objects into prefabs
+ - Added "Fire" animation to Target/Reticle
 
 
 # Credits
