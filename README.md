@@ -11,9 +11,11 @@
  - Update RocketSpawner with new Randomized Array
  - Kenney Food Imported
  - Created Food Rockets
-
+ - Updated Level Design / Environment
+ - Kenney Furniture Imported
 
 
 # Credits
 https://www.dafont.com/super-foods.font?l[]=10&l[]=1
 https://www.kenney.nl/assets/food-kit
+https://www.kenney.nl/assets/furniture-kit
