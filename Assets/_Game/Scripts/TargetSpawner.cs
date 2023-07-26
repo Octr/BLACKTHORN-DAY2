@@ -81,7 +81,7 @@ public class TargetSpawner : Singleton<TargetSpawner>
             if (targetKillCount == 5)
             {
                 lifeTime = 2.5f;
-                RocketSpawnHandler.Instance.CoolDownTime = 0.5f;
+                RocketSpawnHandler.Instance.CoolDownTime = 0.75f;
             }
         }
 
@@ -90,7 +90,7 @@ public class TargetSpawner : Singleton<TargetSpawner>
             if (targetKillCount == 10)
             {
                 lifeTime = 1.5f;
-                RocketSpawnHandler.Instance.CoolDownTime = 0.25f;
+                RocketSpawnHandler.Instance.CoolDownTime = 0.45f;
             }
         }
 
@@ -99,7 +99,7 @@ public class TargetSpawner : Singleton<TargetSpawner>
             if (targetKillCount == 20)
             {
                 lifeTime = 1;
-                RocketSpawnHandler.Instance.CoolDownTime = 0.1f;
+                RocketSpawnHandler.Instance.CoolDownTime = 0.25f;
             }
         }
     }
@@ -112,13 +112,13 @@ public class TargetSpawner : Singleton<TargetSpawner>
             CameraPan.Instance.SwapCamera(RoomType.LIVING_ROOM);
         }
 
-        if(roomCounter == 10)
+        if(roomCounter == 5)
         {
             room = RoomType.KITCHEN;
             CameraPan.Instance.SwapCamera(RoomType.KITCHEN);
         }
 
-        if(roomCounter == 20)
+        if(roomCounter == 10)
         {
             room = RoomType.LIVING_ROOM;
             CameraPan.Instance.SwapCamera(RoomType.LIVING_ROOM);
