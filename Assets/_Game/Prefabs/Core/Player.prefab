@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 7259433417625015877}
   - component: {fileID: 99423812293755679}
   m_Layer: 0
-  m_Name: Spawner
+  m_Name: Rocket Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -236,3 +236,4 @@ MonoBehaviour:
   - {fileID: 1275630571189960375, guid: 9035227b6474d794d911efb571d00c46, type: 3}
   - {fileID: 5230715535953580923, guid: 801ca94739e6a4e43b1f20a542b10de4, type: 3}
   - {fileID: 8806953312068924756, guid: aa5c1057a2565d8439ed8021a96a13e6, type: 3}
+  - {fileID: 7887879324365973648, guid: 00f66512ff7784442a95aa4ffcd79677, type: 3}
