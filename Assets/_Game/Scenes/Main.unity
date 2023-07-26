@@ -752,8 +752,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8dc7b28c3cb72549b5bfa270cbbb55b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rocketPrefab: {fileID: 5230715535953580923, guid: 801ca94739e6a4e43b1f20a542b10de4,
-    type: 3}
+  _rocketPrefabs:
+  - {fileID: 1275630571189960375, guid: 9035227b6474d794d911efb571d00c46, type: 3}
+  - {fileID: 5230715535953580923, guid: 801ca94739e6a4e43b1f20a542b10de4, type: 3}
 --- !u!1 &554739118
 GameObject:
   m_ObjectHideFlags: 0
