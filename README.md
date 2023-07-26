@@ -20,6 +20,7 @@
  - Completed "SimpleAnimation.cs" (Adds Rotation To Objects)
  - Turned many scene objects into prefabs
  - Added "Fire" animation to Target/Reticle
+ - Implemented "Rocket" SFX
 
 
 # Credits
@@ -34,3 +35,6 @@ https://pixabay.com/users/john_sib-15655402/
 https://pixabay.com/users/nesterouk-34392616/
 https://pixabay.com/users/blackbox-901816/
 https://pixabay.com/users/spmusic-34490764/
+
+https://pixabay.com/users/pixabay-1/
+https://freesound.org/people/derplayer/sounds/587184/
